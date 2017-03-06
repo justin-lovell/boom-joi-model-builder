@@ -1,0 +1,35 @@
+{
+  "name": "boom-joi-model-builder",
+  "version": "1.0.0",
+  "description": "JOI model builder for boom errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-lovell/boom-joi-model-builder.git"
+  },
+  "keywords": [
+    "boom",
+    "hapi",
+    "validation",
+    "model",
+    "joi"
+  ],
+  "author": "Justin Lovell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justin-lovell/boom-joi-model-builder/issues"
+  },
+  "homepage": "https://github.com/justin-lovell/boom-joi-model-builder#readme",
+  "dependencies": {
+    "joi": "^10.2.2"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
+  },
+  "files": [
+    "index.js"
+  ]
+}

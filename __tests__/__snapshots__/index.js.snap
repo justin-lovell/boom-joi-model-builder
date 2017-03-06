@@ -1,0 +1,451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a 401 and 500 is added 1`] = `
+Object {
+  "401":  {
+    "_description": null,
+    "_examples": Array [],
+    "_flags": Object {},
+    "_inner": Object {
+      "children": Array [
+        Object {
+          "key": "statusCode",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {
+              "allowOnly": true,
+              "presence": "required",
+            },
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                Infinity,
+                -Infinity,
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [
+              Object {
+                "arg": undefined,
+                "func": [Function],
+                "name": "integer",
+                "options": undefined,
+              },
+            ],
+            "_type": "number",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [
+                401,
+              ],
+            },
+            "isJoi": true,
+          },
+        },
+        Object {
+          "key": "error",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {
+              "presence": "required",
+            },
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                "",
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [],
+            "_type": "string",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [],
+            },
+            "isJoi": true,
+          },
+        },
+        Object {
+          "key": "message",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {},
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                "",
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [],
+            "_type": "string",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [],
+            },
+            "isJoi": true,
+          },
+        },
+        Object {
+          "key": "data",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {},
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                "",
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [],
+            "_type": "string",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [],
+            },
+            "isJoi": true,
+          },
+        },
+      ],
+      "dependencies": Array [],
+      "patterns": Array [],
+      "renames": Array [],
+    },
+    "_invalids": Set {
+      "_set": Array [],
+    },
+    "_meta": Array [],
+    "_notes": Array [],
+    "_refs": Array [],
+    "_settings": null,
+    "_tags": Array [],
+    "_tests": Array [],
+    "_type": "object",
+    "_unit": null,
+    "_valids": Set {
+      "_set": Array [],
+    },
+    "isJoi": true,
+  },
+  "500":  {
+    "_description": null,
+    "_examples": Array [],
+    "_flags": Object {},
+    "_inner": Object {
+      "children": Array [
+        Object {
+          "key": "statusCode",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {
+              "allowOnly": true,
+              "presence": "required",
+            },
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                Infinity,
+                -Infinity,
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [
+              Object {
+                "arg": undefined,
+                "func": [Function],
+                "name": "integer",
+                "options": undefined,
+              },
+            ],
+            "_type": "number",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [
+                500,
+              ],
+            },
+            "isJoi": true,
+          },
+        },
+        Object {
+          "key": "error",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {
+              "presence": "required",
+            },
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                "",
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [],
+            "_type": "string",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [],
+            },
+            "isJoi": true,
+          },
+        },
+        Object {
+          "key": "message",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {},
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                "",
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [],
+            "_type": "string",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [],
+            },
+            "isJoi": true,
+          },
+        },
+        Object {
+          "key": "data",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {},
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                "",
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [],
+            "_type": "string",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [],
+            },
+            "isJoi": true,
+          },
+        },
+      ],
+      "dependencies": Array [],
+      "patterns": Array [],
+      "renames": Array [],
+    },
+    "_invalids": Set {
+      "_set": Array [],
+    },
+    "_meta": Array [],
+    "_notes": Array [],
+    "_refs": Array [],
+    "_settings": null,
+    "_tags": Array [],
+    "_tests": Array [],
+    "_type": "object",
+    "_unit": null,
+    "_valids": Set {
+      "_set": Array [],
+    },
+    "isJoi": true,
+  },
+}
+`;
+
+exports[`a 401 is added 1`] = `
+Object {
+  "401":  {
+    "_description": null,
+    "_examples": Array [],
+    "_flags": Object {},
+    "_inner": Object {
+      "children": Array [
+        Object {
+          "key": "statusCode",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {
+              "allowOnly": true,
+              "presence": "required",
+            },
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                Infinity,
+                -Infinity,
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [
+              Object {
+                "arg": undefined,
+                "func": [Function],
+                "name": "integer",
+                "options": undefined,
+              },
+            ],
+            "_type": "number",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [
+                401,
+              ],
+            },
+            "isJoi": true,
+          },
+        },
+        Object {
+          "key": "error",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {
+              "presence": "required",
+            },
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                "",
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [],
+            "_type": "string",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [],
+            },
+            "isJoi": true,
+          },
+        },
+        Object {
+          "key": "message",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {},
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                "",
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [],
+            "_type": "string",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [],
+            },
+            "isJoi": true,
+          },
+        },
+        Object {
+          "key": "data",
+          "schema":  {
+            "_description": null,
+            "_examples": Array [],
+            "_flags": Object {},
+            "_inner": Object {},
+            "_invalids": Set {
+              "_set": Array [
+                "",
+              ],
+            },
+            "_meta": Array [],
+            "_notes": Array [],
+            "_refs": Array [],
+            "_settings": null,
+            "_tags": Array [],
+            "_tests": Array [],
+            "_type": "string",
+            "_unit": null,
+            "_valids": Set {
+              "_set": Array [],
+            },
+            "isJoi": true,
+          },
+        },
+      ],
+      "dependencies": Array [],
+      "patterns": Array [],
+      "renames": Array [],
+    },
+    "_invalids": Set {
+      "_set": Array [],
+    },
+    "_meta": Array [],
+    "_notes": Array [],
+    "_refs": Array [],
+    "_settings": null,
+    "_tags": Array [],
+    "_tests": Array [],
+    "_type": "object",
+    "_unit": null,
+    "_valids": Set {
+      "_set": Array [],
+    },
+    "isJoi": true,
+  },
+}
+`;
+
+exports[`a blank code will result in an empty result 1`] = `Object {}`;
